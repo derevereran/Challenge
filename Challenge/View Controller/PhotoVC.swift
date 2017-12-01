@@ -64,7 +64,6 @@ class PhotoVC : UIViewController{
     }
 }
 
-
 extension PhotoVC : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
