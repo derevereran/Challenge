@@ -82,20 +82,68 @@
 		9B37A7B51FCE53AB008340A0 /* Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				9B37A7C81FCE566D008340A0 /* AlbumsViewController.swift */,
-				9B37A7CC1FCE57A4008340A0 /* Albums.swift */,
-				9B37A7B61FCE53AB008340A0 /* AppDelegate.swift */,
-				9B37A7BA1FCE53AB008340A0 /* Main.storyboard */,
-				9B37A7BD1FCE53AB008340A0 /* Assets.xcassets */,
-				9B37A7BF1FCE53AB008340A0 /* LaunchScreen.storyboard */,
-				9B37A7C21FCE53AB008340A0 /* Info.plist */,
-				9B37A7CA1FCE570D008340A0 /* AlbumsCell.swift */,
-				9BCC8A8E1FCE669600CA3B35 /* Constants.swift */,
-				9BCC8A941FCEA4CF00CA3B35 /* Photo.swift */,
-				9BCC8A901FCEA38000CA3B35 /* PhotoVC.swift */,
-				9BCC8A921FCEA4B200CA3B35 /* PhotoCell.swift */,
+				9B46A3471FD1149300BA45E4 /* Model */,
+				9B46A3481FD1156900BA45E4 /* View */,
+				9B46A34A1FD115C000BA45E4 /* Custom Cell */,
+				9B46A3461FD1145300BA45E4 /* View Controller */,
+				9B46A34C1FD1175E00BA45E4 /* Constants */,
+				9B46A3491FD115A700BA45E4 /* Supporting Files */,
 			);
 			path = Challenge;
+			sourceTree = "<group>";
+		};
+		9B46A3461FD1145300BA45E4 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B37A7B61FCE53AB008340A0 /* AppDelegate.swift */,
+				9BCC8A901FCEA38000CA3B35 /* PhotoVC.swift */,
+				9B37A7C81FCE566D008340A0 /* AlbumsViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		9B46A3471FD1149300BA45E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B37A7CC1FCE57A4008340A0 /* Albums.swift */,
+				9BCC8A941FCEA4CF00CA3B35 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B46A3481FD1156900BA45E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B37A7BD1FCE53AB008340A0 /* Assets.xcassets */,
+				9B37A7BF1FCE53AB008340A0 /* LaunchScreen.storyboard */,
+				9B37A7BA1FCE53AB008340A0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B46A3491FD115A700BA45E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B37A7C21FCE53AB008340A0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B46A34A1FD115C000BA45E4 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B37A7CA1FCE570D008340A0 /* AlbumsCell.swift */,
+				9BCC8A921FCEA4B200CA3B35 /* PhotoCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		9B46A34C1FD1175E00BA45E4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC8A8E1FCE669600CA3B35 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		9C3F9D0318FF88D497860E70 /* Frameworks */ = {
