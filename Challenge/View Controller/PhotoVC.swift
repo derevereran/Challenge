@@ -31,7 +31,10 @@ class PhotoVC : UIViewController{
         layout.delegate = self
         setupCollectionViewInsets()
         layout.cellPadding = 5
-        layout.numberOfColumns = 2
+        
+        if self.photosCollectionView.frame.size.height>self.photosCollectionView.frame.size.width{
+             layout.numberOfColumns = 2
+        }
     }
     private func setupCollectionViewInsets() {
         photosCollectionView!.contentInset = UIEdgeInsets(
@@ -41,7 +44,9 @@ class PhotoVC : UIViewController{
             right: 5
         )
     }
-    
+    func orietetionChanged(){
+       
+    }
     func downloadPhotosDataData(completed: @escaping DownloadComplete){
         
         Alamofire.request(PHOTOS_URL).responseJSON { response in
