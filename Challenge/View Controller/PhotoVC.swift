@@ -24,7 +24,7 @@ class PhotoVC : UIViewController{
         super.viewDidLoad()
         photosCollectionView.delegate=self
         photosCollectionView.dataSource=self
-        downloadPhotosDataData {
+        downloadPhotosData {
         }
         let layout = PinterestLayout()
         photosCollectionView.collectionViewLayout=layout
@@ -47,7 +47,8 @@ class PhotoVC : UIViewController{
     func orietetionChanged(){
        
     }
-    func downloadPhotosDataData(completed: @escaping DownloadComplete){
+    
+    func downloadPhotosData(completed: @escaping DownloadComplete){
         
         Alamofire.request(PHOTOS_URL).responseJSON { response in
             let result = response.result

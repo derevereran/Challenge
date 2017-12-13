@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+
 class Photo{
     var photoAlbumId :Int!
     var photoTitle:String!
