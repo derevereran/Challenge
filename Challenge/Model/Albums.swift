@@ -33,6 +33,8 @@ class Albums{
         }
         if let title = albumArray["title"] as? String{
             self.albumTitle = title
+            
+//            commit
         }
     }
 }

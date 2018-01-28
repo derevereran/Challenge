@@ -10,8 +10,9 @@ import UIKit
 
 class AlbumsCell: UITableViewCell {
     @IBOutlet weak var albumTitleLabel: UILabel!
-    
+      //costumcell
     func configureCell(album: Albums) {
       albumTitleLabel.text = album.title.capitalized
+      
     }
 }

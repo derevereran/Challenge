@@ -44,4 +44,6 @@ class Photo{
             self.photoUrl = url
         }
     }
+    
+//    this comment fot commit
 }
